@@ -56,6 +56,10 @@
         "source": "/home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/res/merged/debug/layout/activity_display_message.xml",
+        "source": "/home/lkonusch/AndroidStudioProjects/testapp/app/src/main/res/layout/activity_display_message.xml"
+    },
+    {
         "merged": "/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/res/layout/abc_activity_chooser_view.xml"
     },
