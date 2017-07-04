@@ -1,0 +1,7 @@
+#Tue Jul 04 14:03:33 CEST 2017
+base.0=/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_59aa0d2e0f9e645aef3f5cc478201f6506753c3a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5f2dfd449c3e600bf890c8b9d33ed5643a479ae3/classes.dex
+base.1=/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5f2dfd449c3e600bf890c8b9d33ed5643a479ae3
+file.0=/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_59aa0d2e0f9e645aef3f5cc478201f6506753c3a/classes.dex

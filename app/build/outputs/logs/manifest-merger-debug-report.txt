@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/lkonusch/.android/build-cache/18ac665b50e452cf2915550567ebab427cb3a756/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/lkonusch/.android/build-cache/1252a7f3f9033f839f09d9579cbc3f1761041890/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/lkonusch/.android/build-cache/4c49de014cd544f58a51f2a34f7eda72e44b2219/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/lkonusch/.android/build-cache/ad4a6645978a93a78017087ca2d60b25af53930d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/lkonusch/.android/build-cache/4bd311c50ec3d94951f1d9272f973c813d2aceee/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/lkonusch/.android/build-cache/79d433256028630e8966a0a31a866a5a3c02be40/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/lkonusch/.android/build-cache/8c9349757f6653fff66aa10679be20cb41fbe186/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/lkonusch/.android/build-cache/e3f49239321786b90628e15e9bbe4a104d95b620/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lkonusch/.android/build-cache/d4aa746afbb9f59f317d0450bbc2feb754e6034f/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.lkonusch.testapp.MainActivity
+ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/lkonusch/.android/build-cache/18ac665b50e452cf2915550567ebab427cb3a756/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/lkonusch/.android/build-cache/1252a7f3f9033f839f09d9579cbc3f1761041890/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/lkonusch/.android/build-cache/4c49de014cd544f58a51f2a34f7eda72e44b2219/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/lkonusch/.android/build-cache/ad4a6645978a93a78017087ca2d60b25af53930d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/lkonusch/.android/build-cache/4bd311c50ec3d94951f1d9272f973c813d2aceee/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/lkonusch/.android/build-cache/79d433256028630e8966a0a31a866a5a3c02be40/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/lkonusch/.android/build-cache/8c9349757f6653fff66aa10679be20cb41fbe186/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/lkonusch/.android/build-cache/e3f49239321786b90628e15e9bbe4a104d95b620/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lkonusch/.android/build-cache/d4aa746afbb9f59f317d0450bbc2feb754e6034f/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lkonusch/AndroidStudioProjects/testapp/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/lkonusch/.android/build-cache/18ac665b50e452cf2915550567ebab427cb3a756/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/lkonusch/.android/build-cache/1252a7f3f9033f839f09d9579cbc3f1761041890/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/lkonusch/.android/build-cache/4c49de014cd544f58a51f2a34f7eda72e44b2219/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/lkonusch/.android/build-cache/ad4a6645978a93a78017087ca2d60b25af53930d/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/lkonusch/.android/build-cache/4bd311c50ec3d94951f1d9272f973c813d2aceee/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/lkonusch/.android/build-cache/79d433256028630e8966a0a31a866a5a3c02be40/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/lkonusch/.android/build-cache/8c9349757f6653fff66aa10679be20cb41fbe186/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/lkonusch/.android/build-cache/e3f49239321786b90628e15e9bbe4a104d95b620/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/lkonusch/.android/build-cache/077359c48c400975ac5f4aa28b660c1353d02c35/output/AndroidManifest.xml:26:9-47

@@ -1,0 +1,4 @@
+#Tue Jul 04 13:27:41 CEST 2017
+base.0=/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/home/lkonusch/AndroidStudioProjects/testapp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex
