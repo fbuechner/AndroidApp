@@ -25,7 +25,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="#38acb4"
+    android:background="#5271ff"
     tools:context="lkonusch.player.MainActivity" >
 
     <ListView
