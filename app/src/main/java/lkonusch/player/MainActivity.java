@@ -1,6 +1,7 @@
 package lkonusch.player;
 
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -24,12 +25,17 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // check and retrieve permissions
-        //grantUriPermission(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI);
-        checkPermissions();
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // check and retrieve permissions
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[] {android.Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+            return;
+            }
+        }
+
         // retrieve ListView instance using ID from main layout
         songView = (ListView)findViewById(R.id.song_list);
         songList = new ArrayList<Song>();
@@ -66,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             while (musicCursor.moveToNext());
         }
     }
-
+/*
     // check for multiple permissions
     String[] permissions = new String[]{
             android.Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -100,4 +106,5 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
     }
+    */
 }
