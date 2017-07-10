@@ -1,7 +1,7 @@
 package lkonusch.player;
 
 /*
-Class that models the data for single audio file
+Class that models the information for single audio file
  */
 
 public class Song {

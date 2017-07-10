@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="lkonusch.player">
 
-    <!-- set permissions to play when screen is locked -->
-
+    <!-- set permissions to play when screen is locked and IO on SD Card-->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -29,7 +28,7 @@
             </intent-filter>
         </activity>
         <!-- service class for background playing -->
-        <!-- <service android:name="lkonusch.player.MusicService" />         TODO!!! -->
+        <service android:name="lkonusch.player.MusicService" />
 
     </application>
 
