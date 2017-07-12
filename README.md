@@ -12,8 +12,8 @@ Prerequisites
 - android emulator or an android mobile
 
 Installing
-build the app and push it to your mobile (debugging enabled)
+- build the app and push it to your mobile (debugging enabled)
 run and have fun
 
 Authors
-Arne Peters, Lars Konusch
+- Arne Peters, Lars Konusch
