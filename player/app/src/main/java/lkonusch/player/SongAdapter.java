@@ -10,10 +10,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class SongAdapter extends BaseAdapter {
-    public ArrayList<Song> songs;
+    private ArrayList<Song> songs;
     private LayoutInflater songInf;
 
-    public SongAdapter(Context c, ArrayList<Song> theSongs){
+    public SongAdapter(Context c, ArrayList<Song> theSongs) {
         songs = theSongs;
         songInf = LayoutInflater.from(c);
     }
@@ -35,11 +35,34 @@ public class SongAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        //map to song layout
+        LinearLayout songLay = (LinearLayout)songInf.inflate(R.layout.song, parent, false);
+        //get title and artist views
+        TextView songView = (TextView)songLay.findViewById(R.id.song_title);
+        TextView artistView = (TextView)songLay.findViewById(R.id.song_artist);
+        //get song using position
+        Song currSong = songs.get(position);
+        //get title and artist strings
+        songView.setText(currSong.getTitle());
+        //artistView.setText(currSong.getArtist());
+        //set position as tag
+        songLay.setTag(position);
+        return songLay;
+    }
+
+
+    /*
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
         // map to song layout
         LinearLayout songLay = (LinearLayout)songInf.inflate(R.layout.song, parent, false);
         // get title and artist views
-        TextView songView = (TextView)songLay.findViewById(R.id.song_title);
-        TextView artistView = (TextView)songLay.findViewById(R.id.song_artist);
+
+        //TextView songView = (TextView)songLay.findViewById(R.id.song_title);
+        //TextView artistView = (TextView)songLay.findViewById(R.id.song_artist);
+
+        TextView songView = songLay.findViewById(R.id.song_title);
+        TextView artistView = songLay.findViewById(R.id.song_artist);
         // get song using position
         Song currSong = songs.get(position);
         // get title and artist strings
@@ -49,4 +72,6 @@ public class SongAdapter extends BaseAdapter {
         songLay.setTag(position);
         return songLay;
     }
+    */
+
 }
