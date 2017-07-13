@@ -56,7 +56,7 @@ public class MainActivity extends Activity implements MediaPlayerControl {
         }
 
         // retrieve ListView instance using ID from main layout
-        songView = (ListView) findViewById(R.id.song_list);
+        songView = findViewById(R.id.song_list);
         songList = new ArrayList<Song>();
         getSongList();
 

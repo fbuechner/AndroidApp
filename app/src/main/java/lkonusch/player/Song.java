@@ -10,7 +10,7 @@ public class Song {
     private String artist;
 
     public Song(long songID, String songTitle, String songArtist) {
-        // initiate instance variables
+        // instantiate instance variables
         id      = songID;
         title   = songTitle;
         artist  = songArtist;
