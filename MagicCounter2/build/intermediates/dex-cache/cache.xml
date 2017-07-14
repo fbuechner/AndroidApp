@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cc2a3b833e493e9ea8fef15784a8b72fc2bf9a60">
+        <dex dex="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d376492d83905a41ca299884084f752e1735dd7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/arnepeters/.android/build-cache/b13aaa9707a6889b9473b7580afa7a29c9ec48d0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7273fe94bdd55b69730884fe7bc2ce9dda203059">
+        <dex dex="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c06ce8c50648bc495296e8899ddbf4c06bf965b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2414607398dd0da58028a2935d7d53f573bd8dea/classes.dex" />
+    </item>
+
+</items>

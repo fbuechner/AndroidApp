@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
