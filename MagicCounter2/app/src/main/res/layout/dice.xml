@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_dice1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/five"
+            android:layout_above="@+id/iv_dice2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginBottom="87dp" />
+
+        <ImageView
+            android:id="@+id/iv_dice2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/two"
+            android:layout_marginBottom="135dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/iv_dice1" />
+
+        <TextView
+            android:id="@+id/tv_sieger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_dice2"
+            android:layout_alignEnd="@+id/iv_dice2"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="19dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/b_roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_sieger"
+            android:layout_alignBottom="@+id/tv_sieger"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/iv_dice2"
+            android:text="@string/roll" />
+    </RelativeLayout>
+</LinearLayout>

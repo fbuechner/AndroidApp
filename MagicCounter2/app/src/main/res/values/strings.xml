@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MagicCounter</string>
+    <string name="minus1">minus1</string>
+    <string name="plus1">plus1</string>
+    <string name="minus2">minus2</string>
+    <string name="wuerfel">wuerfel</string>
+    <string name="roll">roll</string>
+    <string name="rest">rest</string>
+    <string name="Ausgabe">Ausgabe</string>
+    <string name="Test123">Test123</string>
+    <string name="Test456">Test456</string>
+    <string-array name="test">
+
+        <item>Test1</item>
+        <item>Test2</item>
+        <item>Test3</item>
+        <item>Test4</item>
+
+    </string-array>
+
+
+
+</resources>
