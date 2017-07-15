@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         circleMenu.setMainMenu(Color.parseColor("#CDCDCD"),R.drawable.magic,R.drawable.magic)
                 .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.muenze)
                 .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.wuerfel)
-                .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.one)
+                .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.heads)
                 .setOnMenuSelectedListener(new OnMenuSelectedListener() {
                     @Override
                     public void onMenuSelected(int index) {
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                                 break;
                             }
                             case 2: {
-
+                                startActivity(new Intent(MainActivity.this, Main3Activity.class));
                                 break;
                             }}
 
@@ -148,10 +148,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-
-
-
 
     public void Test(View view) {
         startActivity(new Intent(MainActivity.this, Main2Activity.class));
@@ -263,6 +259,7 @@ public void Reset (){
                 return true;
             case R.id.Muenzwurf:
                 Toast.makeText(MainActivity.this, "Münzwurf", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, Main3Activity.class));
                 return true;
             case R.id.Reset:
                 Toast.makeText(MainActivity.this, "Reset", Toast.LENGTH_SHORT).show();

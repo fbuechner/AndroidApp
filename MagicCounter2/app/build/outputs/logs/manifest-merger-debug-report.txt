@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:3:1-42:12
+ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:3:1-52:12
 	package
 		ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:4:5-37
 		INJECTED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xm
 		INJECTED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:6:5-40:19
+ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:6:5-50:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/arnepeters/.android/build-cache/3aa56928a02bae809686bba0556872f7e6731374/output/AndroidManifest.xml:9:5-20
 MERGED from [com.github.Hitomis:CircleMenu:v1.0.2] /Users/arnepeters/.android/build-cache/b13aaa9707a6889b9473b7580afa7a29c9ec48d0/output/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/AndroidManifest.xml:29:5-20
@@ -60,6 +60,10 @@ activity#myexample.magiccounter.Main2Activity
 ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:26:9-34:20
 	android:name
 		ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:26:19-48
+activity#myexample.magiccounter.Main3Activity
+ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:36:9-44:20
+	android:name
+		ADDED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml:36:19-48
 uses-sdk
 INJECTED from /Users/arnepeters/Music/MagicCounter2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/arnepeters/.android/build-cache/3aa56928a02bae809686bba0556872f7e6731374/output/AndroidManifest.xml:5:5-7:41

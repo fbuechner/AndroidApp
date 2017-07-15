@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/heads.png",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/heads.png"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -198,5 +202,9 @@
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/two.png",
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/two.png"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/tails.png",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/tails.png"
     }
 ]
