@@ -7,7 +7,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:background="#8a8da3"
-    tools:context="myexample.magiccounter.MainActivity" >
+    tools:context="myexample.magiccounter.MainPlayer" >
 
     <ListView
         android:id="@+id/song_list"

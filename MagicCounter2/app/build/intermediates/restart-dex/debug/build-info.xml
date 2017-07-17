@@ -6,29 +6,26 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500292191178"
+    timestamp="1500294748461"
     token="-3688328341127008494"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="4908" />
+        duration="3225" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="664" />
+        duration="402" />
     <task
         name="verifier"
-        duration="73" />
+        duration="154" />
 
     <artifact
         location="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/arnepeters/Music/MagicCounter2/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -73,14 +70,19 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500292191178"
+        timestamp="1500293958060"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/arnepeters/Music/MagicCounter2/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500294748461"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/arnepeters/Music/MagicCounter2/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

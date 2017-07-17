@@ -24,8 +24,8 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-//public class MainActivity extends AppCompatActivity
-public class MainActivity extends Activity implements MediaPlayerControl {
+//public class MainPlayer extends AppCompatActivity
+public class MainPlayer extends Activity implements MediaPlayerControl {
 
     private ArrayList<Song> songList;                   // list that stores the available songinfos
     private ListView songView;
@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements MediaPlayerControl {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_player);
 
         // check and retrieve permissions
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -49,7 +49,7 @@ public class MainActivity extends Activity implements MediaPlayerControl {
             }
         }
 
-        // retrieve ListView instance using ID from main layout
+        // retrieve ListView instance using ID from menu_player layout
         songView = findViewById(R.id.song_list);
         songList = new ArrayList<Song>();
         getSongList();

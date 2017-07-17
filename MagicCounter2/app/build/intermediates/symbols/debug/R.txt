@@ -605,12 +605,14 @@ int id action_bar_title 0x7f0c002c
 int id action_container 0x7f0c0071
 int id action_context_bar 0x7f0c0050
 int id action_divider 0x7f0c0078
+int id action_end 0x7f0c0091
 int id action_image 0x7f0c0072
 int id action_menu_divider 0x7f0c0002
 int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c004c
 int id action_mode_bar_stub 0x7f0c004b
 int id action_mode_close_button 0x7f0c002e
+int id action_shuffle 0x7f0c0092
 int id action_text 0x7f0c0073
 int id actions 0x7f0c0080
 int id activity_chooser_view_content 0x7f0c002f
@@ -765,7 +767,7 @@ int layout abc_select_dialog_material 0x7f04001a
 int layout activity_coinflip 0x7f04001b
 int layout activity_counter 0x7f04001c
 int layout activity_dice 0x7f04001d
-int layout activity_main 0x7f04001e
+int layout activity_player 0x7f04001e
 int layout notification_action 0x7f04001f
 int layout notification_action_tombstone 0x7f040020
 int layout notification_media_action 0x7f040021
@@ -786,8 +788,8 @@ int layout select_dialog_multichoice_material 0x7f04002f
 int layout select_dialog_singlechoice_material 0x7f040030
 int layout song 0x7f040031
 int layout support_simple_spinner_dropdown_item 0x7f040032
-int menu main 0x7f0e0000
-int menu menu_counter 0x7f0e0001
+int menu menu_counter 0x7f0e0000
+int menu menu_player 0x7f0e0001
 int mipmap ic_launcher 0x7f030000
 int mipmap ic_launcher_round 0x7f030001
 int string Ausgabe 0x7f060015

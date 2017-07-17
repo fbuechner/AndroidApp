@@ -2342,12 +2342,14 @@ containing a value of this type.
         public static final int action_container=0x7f0c0071;
         public static final int action_context_bar=0x7f0c0050;
         public static final int action_divider=0x7f0c0078;
+        public static final int action_end=0x7f0c0091;
         public static final int action_image=0x7f0c0072;
         public static final int action_menu_divider=0x7f0c0002;
         public static final int action_menu_presenter=0x7f0c0003;
         public static final int action_mode_bar=0x7f0c004c;
         public static final int action_mode_bar_stub=0x7f0c004b;
         public static final int action_mode_close_button=0x7f0c002e;
+        public static final int action_shuffle=0x7f0c0092;
         public static final int action_text=0x7f0c0073;
         public static final int actions=0x7f0c0080;
         public static final int activity_chooser_view_content=0x7f0c002f;
@@ -2506,7 +2508,7 @@ containing a value of this type.
         public static final int activity_coinflip=0x7f04001b;
         public static final int activity_counter=0x7f04001c;
         public static final int activity_dice=0x7f04001d;
-        public static final int activity_main=0x7f04001e;
+        public static final int activity_player=0x7f04001e;
         public static final int notification_action=0x7f04001f;
         public static final int notification_action_tombstone=0x7f040020;
         public static final int notification_media_action=0x7f040021;
@@ -2529,8 +2531,8 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040032;
     }
     public static final class menu {
-        public static final int main=0x7f0e0000;
-        public static final int menu_counter=0x7f0e0001;
+        public static final int menu_counter=0x7f0e0000;
+        public static final int menu_player=0x7f0e0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

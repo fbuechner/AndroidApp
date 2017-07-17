@@ -2,6 +2,7 @@ package myexample.magiccounter;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -25,6 +26,7 @@ public class MainCounter extends AppCompatActivity {
             "Würfeln",
             "Münzwurf",
             "Play"
+
     };
 
 
@@ -78,8 +80,8 @@ public class MainCounter extends AppCompatActivity {
                                 break;
                             }
                             case 3: {
+                                startActivity(new Intent(MainCounter.this, MainPlayer.class));
 
-                                playMusic();
 
 
                                 break;
@@ -273,12 +275,12 @@ public void Reset (){
 
             case R.id.Regeln:
                 Toast.makeText(MainCounter.this, "Regeln", Toast.LENGTH_SHORT).show();
-
+                goToUrl ( "http://www.wizards.com/magic/rules/MagicRulebook_10E_DE.pdf");
 
                 return true;
             case R.id.MP3Player:
                 Toast.makeText(MainCounter.this, "MP3 Player", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(MainCounter.this, MainActivity.class));
+                startActivity(new Intent(MainCounter.this, MainPlayer.class));
 
                 return true;
 
@@ -294,12 +296,16 @@ public void Reset (){
         return super.onOptionsItemSelected(item);
     }
 
+    public void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
 
 
     public void playMusic() {
 
 musicSrv.playSong();
-
 
     }
 

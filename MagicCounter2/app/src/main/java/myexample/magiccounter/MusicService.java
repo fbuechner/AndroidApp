@@ -152,7 +152,7 @@ public class MusicService extends Service implements
     public void onPrepared(MediaPlayer mp) {
         // start playback
         mp.start();
-        Intent notIntent = new Intent(this, MainActivity.class);
+        Intent notIntent = new Intent(this, MainPlayer.class);
         notIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendInt = PendingIntent.getActivities(this, 0, new Intent[]{notIntent}, PendingIntent.FLAG_UPDATE_CURRENT);
 

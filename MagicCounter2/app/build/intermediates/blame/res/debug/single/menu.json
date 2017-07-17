@@ -4,6 +4,10 @@
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/menu/menu_counter.xml"
     },
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/menu/menu_player.xml",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/menu/menu_player.xml"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/menu/main.xml"
     }

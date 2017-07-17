@@ -148,6 +148,10 @@
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/activity_player.xml",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/activity_player.xml"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
