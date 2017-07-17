@@ -5,7 +5,6 @@
     tools:context=".MainCounter">
 
 
-
     <item android:title="Optionen"
         android:id="@+id/Optionen"
         android:orderInCategory="100"

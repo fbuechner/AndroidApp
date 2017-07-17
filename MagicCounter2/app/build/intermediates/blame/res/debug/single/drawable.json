@@ -28,6 +28,10 @@
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/rand.png",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/rand.png"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/drawable/notification_icon_background.xml"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/end.png",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/end.png"
     },
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
@@ -190,6 +198,10 @@
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/wuerfel.png",
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/wuerfel.png"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/play.png",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/play.png"
     },
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">MagicCounter</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="end">exit</string>
     <string name="minus1">minus1</string>
     <string name="plus1">plus1</string>
     <string name="minus2">minus2</string>

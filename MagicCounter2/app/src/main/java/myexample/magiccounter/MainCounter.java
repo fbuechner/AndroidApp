@@ -21,9 +21,10 @@ public class MainCounter extends AppCompatActivity {
 
 
     String arrayName [] = {
-            "Muenze",
-            "Wuerfel",
-            "Reset"
+            "Reset",
+            "Würfeln",
+            "Münzwurf",
+            "Play"
     };
 
 
@@ -33,6 +34,10 @@ public class MainCounter extends AppCompatActivity {
     int zaehler1 = 50;
     int zaehler2 = 50;
     int maxSeekbar = 10;
+    private MusicService musicSrv;
+
+    private boolean paused = false, playbackPaused = false;
+
 
     private static SeekBar seek_bar;
     private static TextView text_view;
@@ -52,6 +57,7 @@ public class MainCounter extends AppCompatActivity {
                 .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.resetbutton)
                 .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.wuerfel)
                 .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.heads)
+                .addSubMenu(Color.parseColor("#CDCDCD"), R.drawable.play)
                 .setOnMenuSelectedListener(new OnMenuSelectedListener() {
                     @Override
                     public void onMenuSelected(int index) {
@@ -70,7 +76,15 @@ public class MainCounter extends AppCompatActivity {
                             case 2: {
                                 startActivity(new Intent(MainCounter.this, CoinFlip.class));
                                 break;
-                            }}
+                            }
+                            case 3: {
+
+                                playMusic();
+
+
+                                break;
+                            }
+                        }
 
 
 
@@ -153,18 +167,18 @@ public class MainCounter extends AppCompatActivity {
                     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                         progress_value = progress;
                         text_view.setText("Poison : " + progress + " / " + seek_bar.getMax());
-                        Toast.makeText(MainCounter.this, "SeekBar in progress", Toast.LENGTH_SHORT).show();
+
                     }
 
                     @Override
                     public void onStartTrackingTouch(SeekBar seekBar) {
-                        Toast.makeText(MainCounter.this, "SeekBar in StartTracking", Toast.LENGTH_SHORT).show();
+
                     }
 
                     @Override
                     public void onStopTrackingTouch(SeekBar seekBar) {
                         text_view.setText("Poison : " + progress_value + " / " + seek_bar.getMax());
-                        Toast.makeText(MainCounter.this, "SeekBar in StopTracking", Toast.LENGTH_SHORT).show();
+
                     }
                 }
         );
@@ -188,18 +202,18 @@ public class MainCounter extends AppCompatActivity {
                     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                         progress_value = progress;
                         text_view2.setText("Poison : " + progress + " / " + seek_bar2.getMax());
-                        Toast.makeText(MainCounter.this, "SeekBar in progress", Toast.LENGTH_SHORT).show();
+
                     }
 
                     @Override
                     public void onStartTrackingTouch(SeekBar seekBar) {
-                        Toast.makeText(MainCounter.this, "SeekBar in StartTracking", Toast.LENGTH_SHORT).show();
+
                     }
 
                     @Override
                     public void onStopTrackingTouch(SeekBar seekBar) {
                         text_view2.setText("Poison : " + progress_value + " / " + seek_bar2.getMax());
-                        Toast.makeText(MainCounter.this, "SeekBar in StopTracking", Toast.LENGTH_SHORT).show();
+
                     }
                 }
         );
@@ -260,9 +274,16 @@ public void Reset (){
             case R.id.Regeln:
                 Toast.makeText(MainCounter.this, "Regeln", Toast.LENGTH_SHORT).show();
 
+
                 return true;
+            case R.id.MP3Player:
+                Toast.makeText(MainCounter.this, "MP3 Player", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainCounter.this, MainActivity.class));
+
+                return true;
+
             case R.id.Hintergrund:
-                Toast.makeText(MainCounter.this, "Hintergrunf", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainCounter.this, "Hintergrund", Toast.LENGTH_SHORT).show();
 
                 return true;
 
@@ -275,8 +296,12 @@ public void Reset (){
 
 
 
+    public void playMusic() {
+
+musicSrv.playSong();
 
 
+    }
 
 
 

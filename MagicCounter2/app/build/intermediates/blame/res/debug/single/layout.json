@@ -88,6 +88,10 @@
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout/notification_template_part_time.xml"
     },
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/song.xml",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/song.xml"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout/notification_template_media.xml"
     },
