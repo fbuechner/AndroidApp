@@ -16,6 +16,10 @@
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/activity_dice.xml",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/activity_dice.xml"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout/abc_action_bar_up_container.xml"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/activity_coinflip.xml",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/activity_coinflip.xml"
     },
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -150,6 +158,10 @@
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/activity_main3.xml",
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/activity_main3.xml"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/activity_counter.xml",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/activity_counter.xml"
     },
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",

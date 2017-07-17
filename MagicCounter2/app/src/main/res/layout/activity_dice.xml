@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myexample.magiccounter.Dice">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+
+
+        <Button
+            android:id="@+id/b_zufall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Würfeln"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/iv_wuerfel1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/five"
+            android:layout_marginTop="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/iv_wuerfel2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/three"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/iv_wuerfel1"
+            android:layout_marginBottom="56dp" />
+
+        <TextView
+            android:id="@+id/tv_ergebniss"
+            android:textColor="#F00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="29dp"
+            android:text=""
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -4,6 +4,10 @@
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/heads.png"
     },
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/resetbutton.png",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/resetbutton.png"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/drawable/abc_cab_background_top_material.xml"
     },
