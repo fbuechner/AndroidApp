@@ -54,8 +54,8 @@
       <file leaf-file-name="MainCounter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="264" column="76" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="76" />
+            <state relative-caret-position="120">
+              <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,24 +63,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/Dice.java">
+      <file leaf-file-name="activity_counter.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_counter.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="36" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+            <state relative-caret-position="2115">
+              <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
               <folding>
                 <element signature="e#751#763#0" expanded="true" />
                 <element signature="e#4111#4149#0" expanded="true" />
@@ -93,8 +96,8 @@
       <file leaf-file-name="MainLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="295">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1965,7 +1968,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/Main3Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/CoinFlip.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_counter.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MusicController.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/Play.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
@@ -1975,12 +1977,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_player.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_player.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainPlayer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainCounter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/Dice.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainLogin.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainCounter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainLogin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_counter.xml" />
       </list>
     </option>
   </component>
@@ -2071,7 +2074,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2515,6 +2518,10 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="02afa531-a3cc-487c-9ef5-f47633a85ea8" name="Default" comment="" />
@@ -2817,16 +2824,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/Play.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_counter.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MusicController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2993,21 +2990,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainCounter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="264" column="76" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainLogin.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/myexample/magiccounter/MainCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3016,13 +3013,24 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        <state relative-caret-position="2115">
+          <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
           <folding>
             <element signature="e#751#763#0" expanded="true" />
             <element signature="e#4111#4149#0" expanded="true" />
             <element signature="e#5721#5759#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_counter.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

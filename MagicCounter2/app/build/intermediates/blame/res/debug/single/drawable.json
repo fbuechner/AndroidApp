@@ -4,12 +4,12 @@
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/heads.png"
     },
     {
-        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/lotus.jpeg",
-        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/lotus.jpeg"
-    },
-    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/resetbutton.png",
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/resetbutton.png"
+    },
+    {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/lotus.jpeg",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/drawable/lotus.jpeg"
     },
     {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",

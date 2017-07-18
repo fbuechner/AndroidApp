@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jul 18 10:41:03 CEST 2017
+#Tue Jul 18 12:31:56 CEST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml

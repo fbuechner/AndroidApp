@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500367247672"
+    timestamp="1500373901632"
     token="-3688328341127008494"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -70,7 +70,18 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500367033788"
+        timestamp="1500371878004"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500373092491"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -78,7 +89,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500367247672"
+        timestamp="1500373901632"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/arnepeters/Music/MagicCounter2/app/build/outputs/apk/app-debug.apk"

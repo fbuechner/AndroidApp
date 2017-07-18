@@ -31,11 +31,11 @@ public class MainCounter extends AppCompatActivity {
 
 
     Button b_plus1, b_plus2, b_minus1, b_minus2 ;
-    TextView tv_counter1, tv_counter2, tv_poison1;
-    SeekBar sb_poison1;
-    int zaehler1 = 50;
-    int zaehler2 = 50;
+    TextView tv_counter1, tv_counter2, spieler1, spieler2;
+    int zaehler1 = 20;
+    int zaehler2 = 20;
     int maxSeekbar = 10;
+    String uebergabe, player1, player2;
     private MusicService musicSrv;
 
     private boolean paused = false, playbackPaused = false;
@@ -53,6 +53,8 @@ public class MainCounter extends AppCompatActivity {
         setContentView(R.layout.activity_counter);
         seebbarr();
         seebbarr2();
+
+
 
         CircleMenu circleMenu = (CircleMenu) findViewById(R.id.CircleMenu);
         circleMenu.setMainMenu(Color.parseColor("#CDCDCD"),R.drawable.magic,R.drawable.magic)
@@ -101,7 +103,48 @@ public class MainCounter extends AppCompatActivity {
         b_minus2 = (Button) findViewById(R.id.b_minus2);
         tv_counter1 = (TextView) findViewById(R.id.tv_counter1);
         tv_counter2 = (TextView) findViewById(R.id.tv_counter2);
-        
+        spieler1 = (TextView) findViewById(R.id.spieler1);
+        spieler2 = (TextView) findViewById(R.id.spieler2);
+
+
+
+
+
+        if (savedInstanceState == null) {
+            Bundle extras = getIntent().getExtras();
+            if(extras == null) {
+                uebergabe= "20";
+                tv_counter1.setText(uebergabe);
+                tv_counter2.setText(uebergabe);
+
+            } else {
+                uebergabe= extras.getString("toCounter");
+                player1= extras.getString("player1");
+                player2= extras.getString("player2");
+                tv_counter1.setText(uebergabe);
+                tv_counter2.setText(uebergabe);
+                spieler1.setText(player1);
+                spieler2.setText(player2);
+
+            }
+        } else {
+            uebergabe= (String) savedInstanceState.getSerializable("toCounter");
+            tv_counter1.setText(uebergabe);
+            tv_counter2.setText(uebergabe);
+            player1= (String) savedInstanceState.getSerializable("player1");
+            player2= (String) savedInstanceState.getSerializable("player2");
+            tv_counter1.setText(uebergabe);
+            tv_counter2.setText(uebergabe);
+            spieler1.setText(player1);
+            spieler2.setText(player2);
+
+        }
+
+
+
+
+        zaehler1 = Integer.parseInt(uebergabe);
+        zaehler2 = Integer.parseInt(uebergabe);
 
 
 
