@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">KevinMagicP3_Login</string>
+    <string name="go">Go!</string>
+    <string name="namen_von_spieler_1_eingeben">Namen von Spieler 1 eingeben</string>
+    <string name="namen_von_spieler_2_eingeben">Namen von Spieler 2 eingeben</string>
+    <string-array name="deckdropdown">
+
+        <item>Mono Green</item>
+        <item>Mono Blue</item>
+        <item>Mono Black</item>
+        <item>Mono White</item>
+        <item>Mono Red</item>
+        <item>Azorius U/W</item>
+        <item>Boros R/W</item>
+        <item>Dimir U/B</item>
+        <item>Golgari B/G</item>
+        <item>Gruul R/G</item>
+        <item>Izzet U/R</item>
+        <item>Orzhov W/B</item>
+        <item>Rakdos B/R</item>
+        <item>Selesnya G/W</item>
+        <item>Simic G/U</item>
+        <item>Abzan W/B/G</item>
+        <item>Bant G/W/U</item>
+        <item>Esper W/U/B</item>
+        <item>Grixis U/B/R</item>
+        <item>Jeskai U/R/W</item>
+        <item>Jund B/R/G</item>
+        <item>Mardu R/W/B</item>
+        <item>Naya R/G/W</item>
+        <item>Sultai B/G/U</item>
+        <item>Temur G/U/R</item>
+        <item>4-Color</item>
+        <item>5-Color</item>
+
+    </string-array>
+</resources>
