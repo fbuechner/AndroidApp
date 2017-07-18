@@ -267,8 +267,8 @@ public class MainCounter extends AppCompatActivity {
 
 
 public void Reset (){
-    zaehler2 = 50;
-    zaehler1 = 50;
+    zaehler2 = Integer.parseInt(uebergabe);
+    zaehler1 = Integer.parseInt(uebergabe);
     tv_counter1.setText(Integer.toString(zaehler1));
     tv_counter2.setText(Integer.toString(zaehler2));
     seek_bar.setProgress(0);
