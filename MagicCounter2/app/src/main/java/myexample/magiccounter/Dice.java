@@ -113,17 +113,26 @@ public class Dice extends AppCompatActivity {
                 }
                 else
 
+
                 if (theRoll1 > theRoll2){
                     tv_ergebniss.setText("Spieler1 gewinnt.");
                     ausgabe="Spieler1 gewinnt.";
                     Toast.makeText(Dice.this, "Spieler1 gewinnt. ", Toast.LENGTH_SHORT).show();
 
                 } else
-                    tv_ergebniss.setText("Spieler2 gewinnt.");
-                    ausgabe="Spieler2 gewinnt.";
-                Toast.makeText(Dice.this, "Spieler2 gewinnt. ", Toast.LENGTH_SHORT).show();
 
 
+                    if (theRoll1 < theRoll2) {
+
+
+                        tv_ergebniss.setText("Spieler2 gewinnt.");
+                        ausgabe = "Spieler2 gewinnt.";
+                        Toast.makeText(Dice.this, "Spieler2 gewinnt. ", Toast.LENGTH_SHORT).show();
+
+                    }
+
+
+                
 
             }
            /** AlertDialog.Builder myAlert = new AlertDialog.Builder(this);

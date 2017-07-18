@@ -80,8 +80,8 @@ public class MainCounter extends AppCompatActivity {
                                 break;
                             }
                             case 3: {
-                                startActivity(new Intent(MainCounter.this, MainPlayer.class));
-
+                               startActivity(new Intent(MainCounter.this, MainPlayer.class));
+                               // playMusic();
 
 
                                 break;
@@ -306,7 +306,6 @@ public void Reset (){
     public void playMusic() {
 
 musicSrv.playSong();
-
     }
 
 

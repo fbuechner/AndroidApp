@@ -26,13 +26,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="myexample.magiccounter.MainCounter" >
+        <activity android:name="myexample.magiccounter.MainLogin" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 ]
+        </activity>
+        <activity android:name="myexample.magiccounter.MainCounter" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                android:largeHeap="true"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="myexample.magiccounter.Dice" >
             <intent-filter>
@@ -41,7 +48,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="myexample.magiccounter.CoinFlip" >
+        <activity
+            android:name="myexample.magiccounter.CoinFlip"
+            android:launchMode="standard" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 android:largeHeap="true"

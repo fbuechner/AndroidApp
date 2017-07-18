@@ -120,6 +120,10 @@
         "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/dice.xml"
     },
     {
+        "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/arnepeters/Music/MagicCounter2/app/src/main/res/layout/activity_login.xml"
+    },
+    {
         "merged": "/Users/arnepeters/Music/MagicCounter2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/arnepeters/.android/build-cache/56a360129ae625402f3910b6b32c27d89a0da404/output/res/layout/abc_expanded_menu_layout.xml"
     },
